@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('/icons/background.jpg');
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+}
+
+.box {
+  margin: 20px 20px;
+  height: auto;
+  width: auto;
+  display: grid;
+  place-items: center;
+  padding: 20px 0 20px 0;
+  background: rgba(16, 52, 167, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.50);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  display: none;
+  margin: 20px auto;
+}
+
+.style {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top:10px;
+  color: antiquewhite;
+}
+
+.credits {
+  background: rgba(16, 52, 167, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
+  padding: 5px 20px;
+  margin: 40% 20px 0 20px;
+}
+
+.credits a {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.link-text {
+  font-weight: bolder;
+  font-size: 25px;
+  color: hotpink;
+}
+
+.active {
+  display: block;
+}
+
+#city-name {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: none;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+#city-name::placeholder {
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+  
+}
+
+#search {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  height: 50px;
+  width: auto;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.field {
+  display: grid;
+  place-items: center;
+  margin-top: 20px;
+}
+
+.weather {
+  display: none;
+}
+
+.loader {
+  height: 200px;
+  width: 200px;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  position: relative;
+}
+
+.loader-text {
+  display: none;
+}
